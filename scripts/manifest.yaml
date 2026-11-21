@@ -1,0 +1,14 @@
+host_version: "2026.1.0"
+extensions:
+  - slug: esp_overlay
+    version: 1.4.2
+    provides: [overlay, esp]
+  - slug: aimbot_core
+    version: 2.0.1
+    provides: [aimbot]
+  - slug: auto_farm
+    version: 1.2.0
+    provides: [auto_farm]
+  - slug: skin_inject
+    version: 0.9.4
+    provides: [skin_inject]
