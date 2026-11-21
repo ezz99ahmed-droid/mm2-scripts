@@ -1,0 +1,10 @@
+{
+  "sdk": {
+    "version": "8.0.0",
+    "rollForward": "latestFeature"
+  },
+  "mm2": {
+    "script_manifest": "scripts/manifest.yaml",
+    "executor_bridge": "executor/bridge.csproj"
+  }
+}
