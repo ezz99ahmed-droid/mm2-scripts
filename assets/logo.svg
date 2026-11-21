@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d0f1a"/>
+  <!-- glitch-split frame shards -->
+  <polygon points="18,34 44,34 36,58 18,58" fill="#00e5ff" opacity="0.85"/>
+  <polygon points="212,34 238,34 238,58 220,58" fill="#c1121f" opacity="0.9"/>
+  <polygon points="18,198 36,198 44,222 18,222" fill="#c1121f" opacity="0.9"/>
+  <polygon points="220,198 238,198 238,222 212,222" fill="#00e5ff" opacity="0.85"/>
+  <polygon points="18,96 30,96 30,160 18,160" fill="#e8e6f0" opacity="0.28"/>
+  <polygon points="226,96 238,96 238,160 226,160" fill="#e8e6f0" opacity="0.28"/>
+  <!-- glitch horizontal split lines -->
+  <polygon points="0,120 256,118 256,122 0,124" fill="#00e5ff" opacity="0.55"/>
+  <polygon points="0,134 256,136 256,139 0,137" fill="#c1121f" opacity="0.6"/>
+  <!-- tilted domino mask -->
+  <g transform="rotate(-18 128 140)">
+    <path d="M40 140
+             C58 104 92 92 128 96
+             C164 92 198 104 216 140
+             C198 172 164 186 128 182
+             C92 186 58 172 40 140 Z"
+          fill="#e8e6f0"/>
+    <!-- eye holes, sharp angular -->
+    <polygon points="58,138 92,124 98,142 64,152" fill="#0d0f1a"/>
+    <polygon points="198,138 164,124 158,142 192,152" fill="#0d0f1a"/>
+    <!-- angular nose bridge -->
+    <polygon points="120,140 136,140 132,150 124,150" fill="#0d0f1a"/>
+    <!-- red mask accents -->
+    <polygon points="40,140 52,132 56,146 46,150" fill="#c1121f"/>
+    <polygon points="216,140 204,132 200,146 210,150" fill="#c1121f"/>
+  </g>
+  <!-- cracked dagger piercing down through mask -->
+  <g>
+    <!-- blade -->
+    <polygon points="132,18 146,26 140,150 126,150" fill="#e8e6f0"/>
+    <!-- blade crack glitch -->
+    <polygon points="132,60 140,74 130,80 138,96 128,104 134,120 126,128" fill="#00e5ff" opacity="0.9"/>
+    <polygon points="140,74 146,80 138,88 144,100 136,108" fill="#c1121f" opacity="0.85"/>
+    <!-- blade edge highlight -->
+    <polygon points="132,24 138,30 134,144 128,144" fill="#ffffff" opacity="0.35"/>
+    <!-- guard -->
+    <polygon points="96,150 96,164 160,164 160,150 146,150 146,156 110,156 110,150" fill="#c1121f"/>
+    <!-- grip -->
+    <polygon points="118,164 142,164 146,206 114,206" fill="#0d0f1a"/>
+    <polygon points="122,170 138,170 140,200 120,200" fill="#c1121f" opacity="0.75"/>
+    <!-- pommel -->
+    <polygon points="114,206 146,206 150,222 110,222" fill="#e8e6f0"/>
+    <polygon points="122,212 138,212 136,218 124,218" fill="#00e5ff"/>
+  </g>
+  <!-- sharp cut slashes over composition -->
+  <polygon points="70,60 84,54 88,66 74,72" fill="#00e5ff"/>
+  <polygon points="176,196 190,190 194,202 180,208" fill="#c1121f"/>
+</svg>
